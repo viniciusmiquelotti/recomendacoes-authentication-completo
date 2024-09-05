@@ -1,0 +1,56 @@
+.conteiner {
+    background-color: var(--roxo-escuro);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+    color: var(--cinza-claro);
+}
+
+.formulario {
+    background-color: var(--cinza-claro);
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.campo {
+    padding: 10px 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.botao {
+    background-color: var(--roxo-escuro);
+    color: var(--cinza-claro);
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.mensagem {
+    color: var(--vermelho);
+    margin-bottom: 10px;
+    font-size: .75rem;
+    font-weight: 500;
+}
+
+.novoUsuario {
+    background-color: var(--roxo-escuro);
+    border: none;
+    color: var(--cinza-claro);
+    width: 225px;
+    text-align: end;
+    margin-top: 10px;
+    font-size: 1rem;
+}

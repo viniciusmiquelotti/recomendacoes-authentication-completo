@@ -1,0 +1,10 @@
+.conteiner{
+    background-color: var(--cinza-claro);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: flex-start;
+    width: 100%;
+    padding: 5px;
+}

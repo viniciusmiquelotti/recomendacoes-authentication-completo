@@ -1,0 +1,63 @@
+.conteiner {
+    background-color: var(--cinza-claro);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.imagemCabecalho {
+    width: 100%;
+    height: 72px;
+    object-fit: cover;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: -1.5rem;
+}
+
+.perfil strong {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: var(--roxo-escuro);
+    font-size: large
+}
+
+.avatar {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 8px;
+    border: 4px solid var(--cinza-claro);
+    outline: 2px solid var(--roxo-escuro);
+}
+
+.opcoes {
+    margin-top: 1.5rem;
+    padding: 1rem;
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    width: 100%;
+    height: 45px;
+    border-radius: 8px;
+    padding: 0 1rem;
+    margin-bottom: 12px;
+    border: 1px solid var(--roxo-escuro);
+    background-color: transparent;
+    text-decoration: none;
+    color: var(--roxo-escuro);
+    transition: color 0.1s, background-color 0.1s;
+}
+
+.botao strong {
+    margin-left: 0.5rem;
+}
+
+.botao:hover {
+    background-color: var(--roxo-escuro);
+    color: var(--cinza-claro);
+}

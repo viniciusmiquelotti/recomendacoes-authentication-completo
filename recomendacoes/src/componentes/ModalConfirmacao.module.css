@@ -1,0 +1,53 @@
+.conteiner {
+    background-color: var(--branco);
+    width: 300px;
+    height: 200px;
+    position: fixed;
+    border: 2px solid var(--roxo-escuro);
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteinerMensagem {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.titulo {
+    background-color: var(--roxo-escuro);
+    color: var(--cinza-claro);
+    font-size: 1rem;
+    padding: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.mensagem {
+    color: var(--roxo-escuro);
+    margin-bottom: 25px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+.conteinerBotoes {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.botao {
+    background-color: var(--roxo-escuro);
+    color: var(--cinza-claro);
+    font-size: .9rem;
+    width: 100px;
+    padding: 6px 0px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
